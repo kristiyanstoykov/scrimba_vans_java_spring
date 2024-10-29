@@ -1,0 +1,20 @@
+{
+    "[java]": {
+      "editor.defaultFormatter": "redhat.java", // Using the Red Hat Java extension for formatting
+      "editor.formatOnSave": true
+    },
+    "[plaintext]": {
+      "editor.wordWrap": "on", // This will wrap text to the width of the editor window
+      "editor.wordWrapColumn": 80 // Adjust this number to your preference or screen width for wrapping .txt files
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml", // Assuming you are using the Red Hat XML extension for formatting
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features", // Assuming you are using the built-in JSON extension for formatting
+      "editor.formatOnSave": true
+    },
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic"
+  }
